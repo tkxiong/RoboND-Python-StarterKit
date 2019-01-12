@@ -3,8 +3,6 @@ channels:
     - https://conda.anaconda.org/menpo
     - conda-forge
 dependencies:
-    - python==3.5.2
-    - numpy
     - sympy
     - matplotlib
     - jupyter
@@ -21,7 +19,47 @@ dependencies:
     - pandas
     - ffmpeg
     - imageio=2.1.2
+    - backports=1.0=py_2
+    - backports.weakref=1.0rc1=py36_1
+    - bleach=1.5.0=py36_0
+    - ca-certificates=2018.11.29=ha4d7672_0
+    - certifi=2018.11.29=py36_1000
+    - html5lib=0.9999999=py36_0
+    - libffi=3.2.1=hfc679d8_5
+    - libgcc=7.2.0=h69d50b8_2
+    - libgcc-ng=7.2.0=hdf63c60_3
+    - libgfortran-ng=7.2.0=hdf63c60_3
+    - libprotobuf=3.6.1=hd28b015_0
+    - libstdcxx-ng=7.2.0=hdf63c60_3
+    - markdown=2.6.11=py_0
+    - mkl_fft=1.0.10=py36_0
+    - mkl_random=1.0.2=py36_0
+    - ncurses=6.1=hfc679d8_2
+    - openssl=1.0.2p=h470a237_2
+    - pip=18.1=py36_1000
+    - protobuf=3.6.1=py36hfc679d8_1
+    - python=3.6.7=h5001a0f_1
+    - readline=7.0=haf1bffa_1
+    - setuptools=40.6.3=py36_0
+    - six=1.12.0=py36_1000
+    - sqlite=3.26.0=hb1c47c0_0
+    - tk=8.6.9=ha92aebf_0
+    - webencodings=0.5.1=py_1
+    - werkzeug=0.14.1=py_0
+    - wheel=0.32.3=py36_0
+    - xz=5.2.4=h470a237_1
+    - zlib=1.2.11=h470a237_4
+    - blas=1.0=mkl
+    - cudatoolkit=8.0=3
+    - cudnn=6.0.21=cuda8.0_0
+    - intel-openmp=2019.1=144
+    - mkl=2018.0.3=1
+    - numpy=1.15.0=py36h1b885b7_0
+    - numpy-base=1.15.0=py36h3dfced4_0
+    - tensorflow-gpu=1.2.1=py36cuda8.0cudnn6.0_0
     - pip:
+        - autopep8==1.4.2
+        - pycodestyle==2.4.0
         - moviepy
         - tensorflow==1.2.1
         - socketIO-client
